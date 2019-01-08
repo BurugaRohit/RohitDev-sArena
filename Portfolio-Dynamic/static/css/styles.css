@@ -1,0 +1,817 @@
+/*=================== Rohit Dev's Arena Copyright
+    ================================================  */
+html{
+    scroll-behavior: smooth;
+}
+
+.wrapper {
+    background-image: url('../img/bg3.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100vh;
+}
+.navbar-brand {
+    position: relative;
+    width: 170px;
+    left: 15px;
+    max-height: 70px;
+    /* height of the navbar */
+}
+
+.nav-item a {
+    font-family: 'Righteous', cursive;
+    font-weight: bold;
+}
+.nav-link:hover{
+    color: palegreen !important;
+}
+
+.headerset {
+    padding-top: 200px;
+    font-family: 'Righteous', cursive;
+    box-sizing: border-box;
+}
+
+.headerset h1 {
+    border: 1px solid yellow;
+    border-left: 0;
+    border-right: 0;
+    border-radius: 10%;
+    display: inline-block;
+    opacity: 1;
+}
+
+/******************************************************/
+/* Our Services */
+.bgimg1 {
+    background-image: url('../img/p-7.jpeg');
+    background-attachment: fixed;
+    background-size: cover;
+    height: 100vh;
+}
+
+.section-1 {
+    font-family: 'Righteous', cursive;
+}
+
+.ourservices {
+    padding: 80px 0px 80px;
+}
+
+.rowsetting {
+    padding: 100px 0px 0px;
+}
+
+.rowsetting h2 {
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+.imgsetting {
+    border-radius: 50%;
+    height: 70px;
+    width: 75px;
+}
+
+.imgsetting i {
+    padding-top: 10px;
+    margin-top: 5px;
+    color: black;
+}
+
+.section-1 h1 {
+    border: 1px solid red;
+    border-left: 0;
+    border-top: 0;
+    border-right: 0;
+    border-radius: -15%;
+    display: inline;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.section-1 p {
+    margin-top: 10px;
+}
+
+/******************************************************/
+/* Porfolio */
+.bgimg2 {
+    background-image: url('../img/p-5.jpeg');
+    background-attachment: fixed;
+    background-size: cover;
+    height: 100vh;
+}
+
+.portfolio {
+    font-family: 'Righteous', cursive;
+    padding: 70px 0px 80px;
+}
+
+.section-2 h1 {
+    border: 1px solid red;
+    border-left: 0;
+    border-top: 0;
+    border-right: 0;
+    border-radius: -15%;
+    display: inline;
+    font-size: 50px;
+    font-weight: bold;
+    color: whitesmoke;
+}
+
+.section-2 p {
+    margin-top: 10px;
+}
+
+.card {
+    margin-top: 30px;
+    width: 75%;
+    height: 75%;
+}
+
+/******************************************************/
+/* About */
+.bgimg3 {
+    background-image: url('../img/p-11.jpeg');
+    background-attachment: fixed;
+    background-size: cover;
+    height: 115vh;
+}
+
+.about {
+    font-family: 'Righteous', cursive;
+    padding: 70px 0px 80px;
+}
+
+.section-3 h1 {
+    border: 1px solid red;
+    border-left: 0;
+    border-top: 0;
+    border-right: 0;
+    border-radius: -15%;
+    display: inline;
+    font-size: 50px;
+    font-weight: bold;
+    color: black;
+}
+
+.carousel-item {
+    padding-left: 230px;
+}
+
+/*******************************************************/
+/* Resume */
+.bgimg4 {
+    background-image: url('../img/p-18.jpeg');
+    background-attachment: fixed;
+    background-size: cover;
+    height: 100%;
+}
+
+.resume {
+    font-family: 'Ubuntu', sans-serif;
+    padding: 70px 0px 50px;
+    color: whitesmoke;
+}
+.section-4 .panel{
+    box-sizing: border-box;
+    padding-left: 380px;
+}
+
+.section-4 h1 {
+    border: 1px solid red;
+    border-left: 0;
+    border-top: 0;
+    border-right: 0;
+    border-radius: -15%;
+    display: inline;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.section-4 p {
+    margin-top: 10px;
+}
+
+.progress {
+    display: inline-block;
+    width: 75%;
+}
+
+.secton-4 .container {
+    padding-top: 50px;
+}
+
+.panel article {
+    margin-bottom: 30px;
+}
+
+.panel .img-responsive {
+    width: 150px;
+    height: 120px;
+}
+
+.section-4 figcaption {
+    margin-top: 20px;
+}
+
+.section-4 figcaption>h3 {
+    font-weight: bolder;
+    font-size: xx-large;
+}
+
+.section-4 dt, dd {
+    margin-bottom: 5px;
+}
+ hr{
+    border-color: white;
+    border-style: solid;
+}
+/*************************************************/
+
+/* Contact */
+
+/*Contact sectiom*/
+.content-header{
+  font-family: 'Oleo Script', cursive;
+  color:#fcc500;
+  font-size: 45px;
+}
+
+.section-content{
+  text-align: center;
+
+}
+#contact{
+
+    font-family: 'Teko', sans-serif;
+  padding-top: 60px;
+  height: 100vh;
+  background: #3a6186; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #3a6186 , #89253e); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #3a6186 , #89253e); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color : #fff;
+}
+.contact-section{
+  padding-top: 20px;
+}
+
+.form-line{
+  border-right: 1px solid #B29999;
+}
+
+.form-group{
+  margin-top: 10px;
+}
+label{
+  font-size: 1.3em;
+  line-height: 1em;
+  font-weight: normal;
+}
+.form-control{
+  font-size: 1.3em;
+  color: #080808;
+}
+textarea.form-control {
+    height: 100px;
+   /* margin-top: px;*/
+}
+
+.submit{
+  font-size: 1.1em;
+  width: 120px;
+  background-color: transparent;
+  color: #fff;
+  margin-top: -1em;
+
+}
+.contact-section .btn:hover{
+    color: palegreen;
+}
+/*****************************************/
+
+/* Footer */
+footer img{
+    position: relative;
+    width: 170px;
+    max-height: 70px;
+    left: 45%;
+}
+.logoref{
+    text-align: center;
+}
+.logoref a{
+    text-decoration: none;
+}
+/****************************************/
+
+
+
+
+/* RESPONSIVE ON ALL DEVICES */
+/* Laptop L-1440px */
+@media (min-width: 1024px) and (max-width: 1440px) {
+
+}
+
+/* Tablet -768px */
+@media (min-width: 768px) and (max-width: 1023px){
+    html, body { overflow-x: hidden; }
+    .wrapper {
+        background-image: url('../img/768.png');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        height: 100vh;
+    }
+    /* ourservices */
+    .bgimg1 {
+        background-image: url('../img/768-4.png');
+        background-attachment: fixed;
+        background-size: cover;
+        height: 100vh;
+    }
+    .rowsetting {
+        padding: 10px 0px 0px;
+        margin-bottom: 20px;
+        height: 100%;
+    }
+    .ourservices h1,p{
+        font-size: 50px;
+    }
+    .rowsetting h2,p{
+        font-size: 16px;
+    }
+    .rowsetting h2{
+        font-size: 17px;
+    }
+    /* Portfolio */
+    .card {
+        margin-top: 30px;
+        margin-left: 20px;
+        width: 80%;
+        height: 80%;
+    }
+    /* About */
+    .carousel-item {
+        width: 800px;
+        padding-top: 80px;
+        padding-left: 85px;
+        box-shadow: darkgrey;
+    }
+    .carousel-control-prev-icon, .carousel-control-next-icon{
+    margin-top: 60px;
+    }
+
+    /**************************************************/
+    /* Resume */
+    .section-4 .panel{
+        box-sizing: border-box;
+        padding-top: 5px;
+        padding-left: 5px;
+    }
+    footer img{
+        position: relative;
+        width: 170px;
+        max-height: 70px;
+        left: 40%;
+    }
+    footer a{
+        font-size: 15px;
+    }
+
+
+}
+
+/* Mobile L-425px */
+@media (min-width: 425px) and (max-width: 767px){
+    html, body { overflow-x: hidden; }
+    .wrapper {
+        background-image: url('../img/425.jpeg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        height: 100vh;
+    }
+    .headerset h1{
+        font-size: 60px;
+    }
+        .headerset h2,h1,p{
+            font-size: 20px;
+            margin: 0.3em;
+        }
+        .headerset {
+            padding-top: 130px;
+            box-sizing: border-box;
+        }
+        .headerset button{
+            font-size: 1em;
+            margin-top: 10px;
+        }
+        /* ourservices */
+
+        .ourservices {
+            padding: 35px 0px 35px;
+            height: 100%;
+        }
+
+        .rowsetting {
+            padding: 10px 0px 0px;
+            height: 50%;
+        }
+        .ourservices h1,p{
+            font-size: 30px;
+        }
+        .rowsetting h2,p{
+            font-size: 13px;
+        }
+        .rowsetting h2{
+            font-size: 17px;
+        }
+        .imgsetting {
+            border-radius: 50%;
+            height: 40px;
+            width: 42px;
+        }
+        .imgsetting i {
+            padding-top: 5px;
+            color: black;
+            font-size: 1.4em;
+        }
+        /* Portfolio */
+
+        .bgimg2 {
+            background-image: url('../img/p-5.jpeg');
+            background-attachment: fixed;
+            background-size: cover;
+            height: 100%;
+        }
+        .portfolio {
+            font-family: 'Righteous', cursive;
+            padding: 35px 0px 40px;
+        }
+
+        .section-2 h1 {
+            border: 1px solid red;
+            border-left: 0;
+            border-top: 0;
+            border-right: 0;
+            border-radius: -15%;
+            display: inline;
+            font-size: 25px;
+            font-weight: bold;
+            color: whitesmoke;
+        }
+        .section-2 p {
+            margin-top: 10px;
+            font-size: 10px;
+        }
+        .card {
+            margin-top: 30px;
+            margin-left: 35px;
+            width: 75%;
+            height: 75%;
+        }
+        /*************************************/
+        /* About */
+        .bgimg3 {
+            background-image: url('../img/320-1.jpeg');
+            background-attachment: fixed;
+            background-size: cover;
+            height: 100vh;
+        }
+
+        .about {
+            font-family: 'Righteous', cursive;
+            padding: 70px 0px 80px;
+        }
+
+        .section-3 h1 {
+            border: 1px solid red;
+            border-left: 0;
+            border-top: 0;
+            border-right: 0;
+            border-radius: -15%;
+            display: inline;
+            font-size: 50px;
+            font-weight: bold;
+            color: black;
+        }
+
+        .carousel-item {
+            width: 470px;
+            padding-top: 70px;
+            padding-left: 55px;
+            box-shadow: darkgrey;
+        }
+        .carousel-control-prev-icon, .carousel-control-next-icon{
+        margin-top: 60px;
+        }
+        /**************************************************/
+        /* Resume */
+        .section-4 .panel{
+            box-sizing: border-box;
+            padding-top: 5px;
+            padding-left: 5px;
+        }
+        footer img{
+            position: relative;
+            width: 170px;
+            max-height: 70px;
+            left: 25%;
+        }
+        footer a{
+            font-size: 10px;
+        }
+
+}
+
+/* Mobile M-375px */
+@media (min-width: 375px) and (max-width: 424px){
+    html, body { overflow-x: hidden; }
+    .wrapper {
+        background-image: url('../img/375.jpeg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        height: 100vh;
+    }
+    .headerset h1{
+        font-size: 50px;
+    }
+        .headerset h2,h1,p{
+            font-size: 20px;
+            margin: 0.3em;
+        }
+        .headerset {
+            padding-top: 130px;
+            box-sizing: border-box;
+        }
+        .headerset button{
+            font-size: 1em;
+            margin-top: 10px;
+        }
+        /* ourservices */
+
+        .ourservices {
+            padding: 35px 0px 35px;
+            height: 100%;
+        }
+
+        .rowsetting {
+            padding: 10px 0px 0px;
+            height: 50%;
+        }
+        .ourservices h1,p{
+            font-size: 30px;
+        }
+        .rowsetting h2,p{
+            font-size: 12.2px;
+        }
+        .rowsetting h2{
+            font-size: 17px;
+        }
+        .imgsetting {
+            border-radius: 50%;
+            height: 40px;
+            width: 42px;
+        }
+        .imgsetting i {
+            padding-top: 5px;
+            color: black;
+            font-size: 1.4em;
+        }
+        /* Portfolio */
+
+        .bgimg2 {
+            background-image: url('../img/p-5.jpeg');
+            background-attachment: fixed;
+            background-size: cover;
+            height: 100%;
+        }
+        .portfolio {
+            font-family: 'Righteous', cursive;
+            padding: 35px 0px 40px;
+        }
+
+        .section-2 h1 {
+            border: 1px solid red;
+            border-left: 0;
+            border-top: 0;
+            border-right: 0;
+            border-radius: -15%;
+            display: inline;
+            font-size: 25px;
+            font-weight: bold;
+            color: whitesmoke;
+        }
+        .section-2 p {
+            margin-top: 10px;
+            font-size: 10px;
+        }
+        .card {
+            margin-top: 30px;
+            margin-left: 35px;
+            width: 75%;
+            height: 75%;
+        }
+        /*************************************/
+        /* About */
+        .bgimg3 {
+            background-image: url('../img/320-1.jpeg');
+            background-attachment: fixed;
+            background-size: cover;
+            height: 100vh;
+        }
+
+        .about {
+            font-family: 'Righteous', cursive;
+            padding: 70px 0px 80px;
+        }
+
+        .section-3 h1 {
+            border: 1px solid red;
+            border-left: 0;
+            border-top: 0;
+            border-right: 0;
+            border-radius: -15%;
+            display: inline;
+            font-size: 50px;
+            font-weight: bold;
+            color: black;
+        }
+
+        .carousel-item {
+            width: 400px;
+            padding-top: 70px;
+            padding-left: 55px;
+            box-shadow: darkgrey;
+        }
+        .carousel-control-prev-icon, .carousel-control-next-icon{
+        margin-top: 60px;
+        }
+        /**************************************************/
+        /* Resume */
+        .section-4 .panel{
+            box-sizing: border-box;
+            padding-top: 5px;
+            padding-left: 5px;
+        }
+        footer img{
+            position: relative;
+            width: 170px;
+            max-height: 70px;
+            left: 25%;
+        }
+        footer a{
+            font-size: 10px;
+        }
+
+
+}
+/* Mobile S-320px */
+@media (min-width: 320px) and (max-width: 374px){
+    html, body { overflow-x: hidden; }
+    .wrapper {
+        background-image: url('../img/320.jpeg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        height: 100vh;
+    }
+.headerset h1{
+    font-size: 45px;
+}
+    .headerset h2,h1,p{
+        font-size: 20px;
+        margin: 0.3em;
+    }
+    .headerset {
+        padding-top: 130px;
+        box-sizing: border-box;
+    }
+    .headerset button{
+        font-size: 1em;
+        margin-top: 10px;
+    }
+/* ourservices */
+
+.ourservices {
+    padding: 35px 0px 35px;
+    height: 100%;
+}
+
+.rowsetting {
+    padding: 10px 0px 0px;
+    height: 50%;
+}
+.ourservices h1,p{
+    font-size: 30px;
+}
+.rowsetting h2,p{
+    font-size: 12.2px;
+}
+.rowsetting h2{
+    font-size: 17px;
+}
+.imgsetting {
+    border-radius: 50%;
+    height: 40px;
+    width: 42px;
+}
+.imgsetting i {
+    padding-top: 5px;
+    color: black;
+    font-size: 1.4em;
+}
+/* Portfolio */
+
+.bgimg2 {
+    background-image: url('../img/p-5.jpeg');
+    background-attachment: fixed;
+    background-size: cover;
+    height: 100%;
+}
+.portfolio {
+    font-family: 'Righteous', cursive;
+    padding: 35px 0px 40px;
+}
+
+.section-2 h1 {
+    border: 1px solid red;
+    border-left: 0;
+    border-top: 0;
+    border-right: 0;
+    border-radius: -15%;
+    display: inline;
+    font-size: 25px;
+    font-weight: bold;
+    color: whitesmoke;
+}
+.section-2 p {
+    margin-top: 10px;
+    font-size: 10px;
+}
+.card {
+    margin-top: 30px;
+    margin-left: 35px;
+    width: 75%;
+    height: 75%;
+}
+/*************************************/
+
+/* About */
+.bgimg3 {
+    background-image: url('../img/320-1.jpeg');
+    background-attachment: fixed;
+    background-size: cover;
+    height: 100vh;
+}
+
+.about {
+    font-family: 'Righteous', cursive;
+    padding: 70px 0px 80px;
+}
+
+.section-3 h1 {
+    border: 1px solid red;
+    border-left: 0;
+    border-top: 0;
+    border-right: 0;
+    border-radius: -15%;
+    display: inline;
+    font-size: 50px;
+    font-weight: bold;
+    color: black;
+}
+
+.carousel-item {
+    width: 420px;
+    padding-top: 70px;
+    padding-left: 5px;
+    box-shadow: darkgrey;
+}
+.carousel-control-prev-icon, .carousel-control-next-icon{
+margin-top: 60px;
+}
+/**************************************************/
+
+/* Resume */
+.section-4 .panel{
+    box-sizing: border-box;
+    padding-top: 5px;
+    padding-left: 5px;
+}
+footer img{
+    position: relative;
+    width: 170px;
+    max-height: 70px;
+    left: 25%;
+}
+footer a{
+    font-size: 10px;
+}
+
+}

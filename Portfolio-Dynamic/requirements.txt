@@ -1,0 +1,23 @@
+Logo should create from illustrator
+Need Text content
+Images from local folders/Pexels.com
+Font styles from fontawesome, material icons
+Adding animations to website, using jQuery, Javascript
+Responsive using media queries
+
+Html, Css, Bootstrap Framework, Js, jQuery
+
+Js libraries - node.js, vue.js
+Js Frameworks - AngularJs
+
+Used : 
+Stack Overflow for some queries
+
+.navbar-brand
+{
+    position: relative;
+    width: 170px;
+    left: 15px;
+    max-height: 70px; /* height of the navbar */
+}
+--------this is for not to reduce the logo pixels
